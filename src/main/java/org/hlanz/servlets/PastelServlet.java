@@ -7,6 +7,7 @@ import org.hlanz.mensaje.JsonUtil;
 import org.hlanz.repository.PastelRepository;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,6 +15,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.List;
 
+//Aqui explicar el error de pastelservlet vs pastelservlet/*
+@WebServlet("/pastelservlet/*")
 public class PastelServlet extends HttpServlet {
     private PastelRepository repository = PastelRepository.getInstance();
 
@@ -54,6 +57,15 @@ public class PastelServlet extends HttpServlet {
             resp.getWriter().write("{\"error\":\"ID inválido\"}");
         }
     }
+    /*
+    {
+      "nombre": "Pionono",
+      "sabor": "flan ",
+      "precio": 2,
+      "porciones": 1
+    }
+     */
+
 
     // POST - Crear nuevo pastel
     @Override

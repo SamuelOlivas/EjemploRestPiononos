@@ -10,7 +10,7 @@ public class Main {
         PastelService service = new PastelService();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("||||||||||||API REST DE PASTELES - PRUEBA SIN SERVIDOR ||||||||||||\n");
+        System.out.println("|||||||||||| API REST DE PASTELES - PRUEBA SIN SERVIDOR ||||||||||||\n");
 
         /*
         Vamos a simular las peticiones HTTP que le hariamos a un servidor web

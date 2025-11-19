@@ -18,6 +18,7 @@ public class PastelRepository {
         Vamos a simular una BBDD con este repository
     */
     // Singleton
+    //TAREA: CAMBIAR ESTO POR JDBC Y POSTGRES
     private PastelRepository() {
         // Datos de ejemplo
         crear(new Pastel(null, "Tres Leches", "Vainilla", 25.50, 12));
