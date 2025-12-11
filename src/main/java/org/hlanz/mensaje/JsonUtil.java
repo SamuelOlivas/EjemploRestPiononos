@@ -3,10 +3,11 @@ package org.hlanz.mensaje;
 import org.hlanz.entity.Pastel;
 
 import java.util.List;
+import java.util.Locale;
 
 public class JsonUtil {
     public static String pastelToJson(Pastel p) {
-        return String.format(
+        return String.format(Locale.US,
                 "{\"id\":%d,\"nombre\":\"%s\",\"sabor\":\"%s\",\"precio\":%.2f,\"porciones\":%d}",
                 p.getId(), p.getNombre(), p.getSabor(), p.getPrecio(), p.getPorciones()
         );

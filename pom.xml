@@ -7,6 +7,7 @@
     <groupId>org.hlanz</groupId>
     <artifactId>EjemploRestPiononos</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
