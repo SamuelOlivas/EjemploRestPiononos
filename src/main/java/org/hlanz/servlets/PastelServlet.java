@@ -1,7 +1,5 @@
 package org.hlanz.servlets;
 
-
-
 import org.hlanz.entity.Pastel;
 import org.hlanz.mensaje.JsonUtil;
 import org.hlanz.repository.PastelRepository;
@@ -15,7 +13,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.List;
 
-//Aqui explicar el error de pastelservlet vs pastelservlet/*
 @WebServlet("/pastelservlet/*")
 public class PastelServlet extends HttpServlet {
     private PastelRepository repository = PastelRepository.getInstance();

@@ -4,7 +4,6 @@ import org.hlanz.entity.Pastel;
 
 import java.util.List;
 
-//Esto es para gestionar los JSON
 public class JsonUtil {
     public static String pastelToJson(Pastel p) {
         return String.format(
