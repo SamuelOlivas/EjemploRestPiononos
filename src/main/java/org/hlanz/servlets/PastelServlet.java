@@ -54,15 +54,6 @@ public class PastelServlet extends HttpServlet {
             resp.getWriter().write("{\"error\":\"ID inválido\"}");
         }
     }
-    /*
-    {
-      "nombre": "Pionono",
-      "sabor": "flan ",
-      "precio": 2,
-      "porciones": 1
-    }
-     */
-
 
     // POST - Crear nuevo pastel
     @Override
